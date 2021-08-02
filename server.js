@@ -6,7 +6,7 @@ app.use(express.json());
 
 app.use(cors());
 const dbconnect= require('./config/connectdb')
-const Person= require('./models/person ')
+const Person= require('./models/person')
 require('dotenv').config({path: './.env'})
 dbconnect()
 
